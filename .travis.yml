@@ -7,5 +7,10 @@ install:
 script:
   - python3 -m pytest -v tests/test_BinaryTree.py 
   - python3 -m pytest -v tests/test_BST.py 
-    #- python3 -m pytest -v tests/test_AVLTree.py 
-  - python3 -m pytest -v tests/test_Heap.py 
+<<<<<<< HEAD
+  - python3 -m pytest -v tests/test_AVLTree.py 
+    #- python3 -m pytest -v tests/test_Heap.py 
+=======
+  - python3 -m pytest -v tests/test_AVLTree.py 
+    #- python3 -m pytest -v tests/test_Heap.py 
+>>>>>>> avl
